@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerImageDemo", "DockerImageDemo\DockerImageDemo.csproj", "{5070C01E-66D2-43A1-9E1F-BC068AC50E6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{98337922-56B8-4AE7-A7BE-55A53DA18C2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker1", "Docker1", "{78397E73-6CF2-4D4E-9E97-313F476FC26F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5070C01E-66D2-43A1-9E1F-BC068AC50E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5070C01E-66D2-43A1-9E1F-BC068AC50E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5070C01E-66D2-43A1-9E1F-BC068AC50E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5070C01E-66D2-43A1-9E1F-BC068AC50E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5070C01E-66D2-43A1-9E1F-BC068AC50E6A} = {78397E73-6CF2-4D4E-9E97-313F476FC26F}
+		{78397E73-6CF2-4D4E-9E97-313F476FC26F} = {98337922-56B8-4AE7-A7BE-55A53DA18C2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75C6BA93-9F89-4BB7-BF75-6B053D701681}
+	EndGlobalSection
+EndGlobal
